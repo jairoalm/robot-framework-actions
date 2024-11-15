@@ -58,7 +58,7 @@ jobs:
       # o if é para gerar o relatório mesmo que um cenário de teste falhe
       if: always()
       with: 
-        name: Test report
+        name: Chrome Test report
         path: logs
   
   firefox:
@@ -112,5 +112,5 @@ jobs:
       # o if é para gerar o relatório mesmo que um cenário de teste falhe
       if: always()
       with: 
-        name: Test report
+        name: Firefox Test report
         path: logs
