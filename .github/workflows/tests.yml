@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  # para disparo manual lá no github action
+  workflow_dispath:
 
 jobs:
   chrome:
